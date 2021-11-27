@@ -51,7 +51,7 @@ async def koc(e):
         sleep(1)
         await e.edit("OH BABY")
         sleep(1)
-        await e.edit("AKU SAYANG KAMU💞")
+        await e.edit("PICIES KUY💞")
 
 
 @register(outgoing=True, pattern='^.orgil(?: |$)(.*)')
@@ -397,13 +397,13 @@ async def _(event):
 
     input_str = event.pattern_match.group(1)
 
-    if input_str == "cinta":
+    if input_str == "memeq":
 
         await event.edit(input_str)
 
         animation_chars = [
-            "`Connecting Ke Server Cinta`",
-            "`Mencari Target Cinta`",
+            "`Connecting Ke Server Memeq`",
+            "`Mencari Target Memeq`",
             "`Mengirim Cintaku.. 0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 8%\n██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
@@ -411,8 +411,8 @@ async def _(event):
             "`Mengirim Cintaku.. 36%\n█████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 84%\n█████████████████████▒▒▒▒ `",
-            "`Mengirim Cintaku.. 100%\n█████████CINTAKU███████████ `",
-            f"`Cintaku Sekarang Sepenuhnya Terkirim Padamu, Dan Sekarang Aku Sangat Mencintai Mu, I Love You 💞`"]
+            "`Mengirim Cintaku.. 100%\n█████████MEMEQMU███████████ `",
+            f"`Memeqmu Sekarang Sepenuhnya Menjadi Milik Ku, Dan Sekarang Aku Menginginkan Memeq Mu, Ngewe kuy 💞`"]
 
         for i in animation_ttl:
 
@@ -473,8 +473,8 @@ CMD_HELP.update({
 
 CMD_HELP.update({
     "memes10":
-    "`.cinta`\
-    \nUsage: mengirim cintamu ke seseorang.\
+    "`.memeq`\
+    \nUsage: mengirim memeq ke seseorang.\
     \n\n`.sange` ;  `.gblk`\
     \nUsage: cobalah sndiri ngentot."
 })
